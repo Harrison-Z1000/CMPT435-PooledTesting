@@ -1,0 +1,376 @@
+-- undirected 7-vertex 11-edge tutorial
+new graph
+add vertex 1
+add vertex 2
+add vertex 3
+add vertex 4
+add vertex 5
+add vertex 6
+add vertex 7
+add edge 1 - 2
+add edge 1 - 5
+add edge 1 - 6
+add edge 2 - 3
+add edge 2 - 5
+add edge 2 - 6
+add edge 3 - 4
+add edge 4 - 5
+add edge 5 - 6
+add edge 5 - 7
+add edge 6 - 7
+
+-- undirected 8-Vertex Full
+new graph
+add vertex 1
+add vertex 2
+add vertex 3
+add vertex 4
+add vertex 5
+add vertex 6
+add vertex 7
+add vertex 8
+add edge 2 - 1
+add edge 3 - 1
+add edge 4 - 1
+add edge 5 - 1
+add edge 6 - 1
+add edge 7 - 1
+add edge 8 - 1
+add edge 3 - 2
+add edge 4 - 2
+add edge 5 - 2
+add edge 6 - 2
+add edge 7 - 2
+add edge 8 - 2
+add edge 4 - 3
+add edge 5 - 3
+add edge 6 - 3
+add edge 7 - 3
+add edge 8 - 3
+add edge 5 - 4
+add edge 6 - 4
+add edge 7 - 4
+add edge 8 - 4
+add edge 6 - 5
+add edge 7 - 5
+add edge 8 - 5
+add edge 7 - 6
+add edge 8 - 6
+add edge 8 - 7
+
+-- undirected 63-Vertex Tree (branch factor = 2)
+new graph
+add vertex 1
+add vertex 2
+add vertex 3
+add vertex 4
+add vertex 5
+add vertex 6
+add vertex 7
+add vertex 8
+add vertex 9
+add vertex 10
+add vertex 11
+add vertex 12
+add vertex 13
+add vertex 14
+add vertex 15
+add vertex 16
+add vertex 17
+add vertex 18
+add vertex 19
+add vertex 20
+add vertex 21
+add vertex 22
+add vertex 23
+add vertex 24
+add vertex 25
+add vertex 26
+add vertex 27
+add vertex 28
+add vertex 29
+add vertex 30
+add vertex 31
+add vertex 32
+add vertex 33
+add vertex 34
+add vertex 35
+add vertex 36
+add vertex 37
+add vertex 38
+add vertex 39
+add vertex 40
+add vertex 41
+add vertex 42
+add vertex 43
+add vertex 44
+add vertex 45
+add vertex 46
+add vertex 47
+add vertex 48
+add vertex 49
+add vertex 50
+add vertex 51
+add vertex 52
+add vertex 53
+add vertex 54
+add vertex 55
+add vertex 56
+add vertex 57
+add vertex 58
+add vertex 59
+add vertex 60
+add vertex 61
+add vertex 62
+add vertex 63
+add edge 2 - 1
+add edge 3 - 1
+add edge 4 - 2
+add edge 5 - 2
+add edge 6 - 3
+add edge 7 - 3
+add edge 8 - 4
+add edge 9 - 4
+add edge 10 - 5
+add edge 11 - 5
+add edge 12 - 6
+add edge 13 - 6
+add edge 14 - 7
+add edge 15 - 7
+add edge 16 - 8
+add edge 17 - 8
+add edge 18 - 9
+add edge 19 - 9
+add edge 20 - 10
+add edge 21 - 10
+add edge 22 - 11
+add edge 23 - 11
+add edge 24 - 12
+add edge 25 - 12
+add edge 26 - 13
+add edge 27 - 13
+add edge 28 - 14
+add edge 29 - 14
+add edge 30 - 15
+add edge 31 - 15
+add edge 32 - 16
+add edge 33 - 16
+add edge 34 - 17
+add edge 35 - 17
+add edge 36 - 18
+add edge 37 - 18
+add edge 38 - 19
+add edge 39 - 19
+add edge 40 - 20
+add edge 41 - 20
+add edge 42 - 21
+add edge 43 - 21
+add edge 44 - 22
+add edge 45 - 22
+add edge 46 - 23
+add edge 47 - 23
+add edge 48 - 24
+add edge 49 - 24
+add edge 50 - 25
+add edge 51 - 25
+add edge 52 - 26
+add edge 53 - 26
+add edge 54 - 27
+add edge 55 - 27
+add edge 56 - 28
+add edge 57 - 28
+add edge 58 - 29
+add edge 59 - 29
+add edge 60 - 30
+add edge 61 - 30
+add edge 62 - 31
+add edge 63 - 31
+
+-- undirected 64-Vertex 72-Edge Erdos-Renyi Random
+new graph
+add vertex 1
+add vertex 2
+add vertex 3
+add vertex 4
+add vertex 5
+add vertex 6
+add vertex 7
+add vertex 8
+add vertex 9
+add vertex 10
+add vertex 11
+add vertex 12
+add vertex 13
+add vertex 14
+add vertex 15
+add vertex 16
+add vertex 17
+add vertex 18
+add vertex 19
+add vertex 20
+add vertex 21
+add vertex 22
+add vertex 23
+add vertex 24
+add vertex 25
+add vertex 26
+add vertex 27
+add vertex 28
+add vertex 29
+add vertex 30
+add vertex 31
+add vertex 32
+add vertex 33
+add vertex 34
+add vertex 35
+add vertex 36
+add vertex 37
+add vertex 38
+add vertex 39
+add vertex 40
+add vertex 41
+add vertex 42
+add vertex 43
+add vertex 44
+add vertex 45
+add vertex 46
+add vertex 47
+add vertex 48
+add vertex 49
+add vertex 50
+add vertex 51
+add vertex 52
+add vertex 53
+add vertex 54
+add vertex 55
+add vertex 56
+add vertex 57
+add vertex 58
+add vertex 59
+add vertex 60
+add vertex 61
+add vertex 62
+add vertex 63
+add vertex 64
+add edge 5 - 2
+add edge 11 - 1
+add edge 12 - 5
+add edge 13 - 12
+add edge 14 - 3
+add edge 14 - 5
+add edge 16 - 1
+add edge 17 - 6
+add edge 18 - 11
+add edge 18 - 12
+add edge 20 - 2
+add edge 20 - 7
+add edge 24 - 6
+add edge 28 - 25
+add edge 29 - 11
+add edge 29 - 16
+add edge 30 - 10
+add edge 31 - 25
+add edge 34 - 2
+add edge 35 - 2
+add edge 35 - 30
+add edge 36 - 7
+add edge 37 - 19
+add edge 38 - 1
+add edge 38 - 5
+add edge 41 - 35
+add edge 42 - 6
+add edge 42 - 34
+add edge 42 - 38
+add edge 42 - 40
+add edge 43 - 17
+add edge 43 - 26
+add edge 46 - 5
+add edge 46 - 27
+add edge 46 - 28
+add edge 47 - 31
+add edge 47 - 38
+add edge 48 - 2
+add edge 48 - 6
+add edge 48 - 13
+add edge 48 - 26
+add edge 48 - 42
+add edge 49 - 11
+add edge 49 - 19
+add edge 50 - 8
+add edge 50 - 14
+add edge 50 - 27
+add edge 51 - 7
+add edge 51 - 36
+add edge 52 - 2
+add edge 53 - 28
+add edge 53 - 41
+add edge 54 - 4
+add edge 55 - 2
+add edge 55 - 45
+add edge 56 - 18
+add edge 57 - 49
+add edge 58 - 25
+add edge 59 - 52
+add edge 60 - 23
+add edge 60 - 31
+add edge 60 - 37
+add edge 60 - 40
+add edge 61 - 20
+add edge 61 - 28
+add edge 61 - 31
+add edge 61 - 58
+add edge 62 - 3
+add edge 62 - 4
+add edge 62 - 5
+add edge 63 - 38
+add edge 64 - 40
+
+-- undirected Zork Map (ground level) w/ 3 disconnected components
+new graph
+add vertex 0
+add vertex 1
+add vertex 2
+add vertex 3
+add vertex 4
+add vertex 5
+add vertex 6
+add vertex 7
+add vertex 8
+add vertex 9
+add vertex 10
+add vertex 11
+add vertex 12
+add vertex 13
+add vertex 14
+add vertex 15
+add vertex 16
+add vertex 17
+add vertex 18
+add vertex 19
+add vertex 20
+add edge 0 - 1
+add edge 0 - 3
+add edge 0 - 13
+add edge 1 - 2
+add edge 1 - 14
+add edge 2 - 3
+add edge 2 - 7
+add edge 3 - 12
+add edge 4 - 5
+add edge 4 - 6
+add edge 7 - 8
+add edge 7 - 12
+add edge 7 - 17
+add edge 8 - 12
+add edge 8 - 9
+add edge 9 - 11
+add edge 10 - 11
+add edge 12 - 13
+add edge 13 - 14
+add edge 13 - 15
+add edge 14 - 15
+add edge 14 - 16
+add edge 15 - 17
+add edge 17 - 18
+add edge 19 - 20
+
